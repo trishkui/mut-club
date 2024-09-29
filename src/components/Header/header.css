@@ -1,0 +1,67 @@
+.header-social-contact-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    border-bottom: 3px solid white ;
+    padding-block: .5rem ;
+}
+
+@media screen and (max-width:56.25em){
+    .header-social-contact-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.header-social-contact{
+    display: flex;
+    gap: 1rem;
+}
+
+.header-social-contact svg {
+--size: 1.8rem;
+width: var(--size);
+height: var(--size);
+fill: green;
+}
+
+.header-navigation{
+   display: flex; 
+   justify-content: space-between;
+   padding: .5rem 0;
+   align-items: center;
+
+}
+@media screen and (max-width:43.75em){
+    .header-navigation{
+        flex-direction: column;
+    }
+}
+.navigation-list{
+  list-style: none;
+  display: flex;
+  gap: 5rem;  
+}
+@media screen and (max-width:19.375em){
+    .navigation-list{
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 1rem ;
+    }
+}
+
+
+.navigation-link{
+ text-decoration: none;  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navigation-item:hover {
+background-color: greenyellow;
+color: white;
+}
+.navigation-item{
+    transition: all .3s ;
+    padding: 1rem;
+}

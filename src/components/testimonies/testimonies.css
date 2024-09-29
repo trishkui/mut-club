@@ -1,0 +1,103 @@
+/* Overall section styling */
+section {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Light background to make the section stand out */
+  }
+  
+  .testimonies-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0B6623; /* Your primary color */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  /* Container for testimony cards */
+  .testimonies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the testimony cards */
+    flex-wrap: wrap; /* Makes the cards wrap if there's not enough space */
+  }
+  
+  /* Individual testimony card styling */
+  .testimony-card {
+    background-color: white;
+    box-shadow: 0 3px 40px grey;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect on the card */
+  .testimony-card:hover {
+    transform: translateY(-10px); /* Lifts the card on hover */
+  }
+  
+  /* Student details inside each card */
+  .student-details {
+    margin-bottom: 20px;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .testimony-card-student-mame{
+    text-transform:capitalize;
+    letter-spacing: 1.3px;
+  }
+
+  .testimony-title{
+   text-transform: capitalize;
+   margin: 1rem 0;
+  }
+  
+  .testimony-text{
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: justify;
+
+  }
+
+  
+  .student-details img {
+    width: 100px; /* Make the image a consistent size */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  
+  .testimony-card-student-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .testimony-title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .testimony-text {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .testimonies-container {
+      flex-direction: column;
+      align-items: center; /* Center the testimony cards on small screens */
+    }
+  }
+  
