@@ -5,7 +5,7 @@ import Footer from './components/footer/footer';
 import Home from './pages/Home/home';
 import Leadership from './pages/Leadership/leadership';
 import Tracks from './pages/Tracks/Tracks';
-import Events from './pages/Events/events';
+import Events from './pages/Eventsv/events';
 import {BrowserRouter,Routes,Route } from 'react-router-dom'
 function App() {
  
