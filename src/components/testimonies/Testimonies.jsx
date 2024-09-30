@@ -1,5 +1,5 @@
 
-import "./Testimonies.css";
+import "./testimonies.css";
 import student1 from '../../assets/student1.jpg' ;
 import student2 from '../../assets/student2.jpg' ;
 import student3 from '../../assets/student3.jpg';
