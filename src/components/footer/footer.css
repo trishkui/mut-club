@@ -1,10 +1,10 @@
-/* Footer Styles */
+
 .footer {
-    background-color: #0B6623; /* Dark green from your color scheme */
-    color: #E8E9EB; /* Light gray for text */
+    background-color: #0B6623; 
+    color: #E8E9EB; 
     padding: 20px 0;
     text-align: center;
-    font-family: 'Arial', sans-serif; /* Optional, choose a font */
+    font-family: 'Arial', sans-serif; 
     position: relative;
     bottom: 0;
     width: 100%;
@@ -13,21 +13,21 @@
 .footer-text {
     margin: 0;
     font-size: 16px;
-    color: #E8E9EB; /* Light gray */
+    color: #E8E9EB; 
 }
 
 .footer-text a {
-    color: #E8E9EB; /* Same light gray as the text */
+    color: #E8E9EB; 
     text-decoration: none;
     font-weight: bold;
 }
 
 .footer-text a:hover {
-    color: #FFFFFF; /* White for hover effect */
+    color: #FFFFFF; 
     text-decoration: underline;
 }
 
-/* Ensure proper mobile responsiveness */
+
 @media (max-width: 600px) {
     .footer {
         padding: 15px;

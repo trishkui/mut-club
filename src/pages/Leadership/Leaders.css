@@ -1,0 +1,174 @@
+.Leaders {
+    background-color: white;
+    color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  
+  }
+  
+  .introduction {
+    margin-bottom: 3rem;
+    height: auto;
+    
+  }
+  
+  .introduction p {
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    padding-top:3rem 0 1rem;
+    font-style: italic;
+    padding-top: 3rem 0;
+    background-color: white;
+    align-items: center;
+    /* padding-bottom: 2rem; */
+  }
+  
+  .introduction h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-style: italic;
+    padding-top: 3rem;
+    background-color: white;
+    padding-bottom: 1rem;
+    align-items: center;
+  }
+  
+  .ourleaders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    gap: 2rem;
+    /* padding-left: 3rem; */
+    width: 90%;
+    /* grid-template-columns: 4fr 1fr;
+    padding-top: 5rem; */
+  ;
+  }
+  
+  .ourleaders img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+  }
+  
+  .iconss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: var(--light_color);
+    font-size: small;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .iconss:hover{
+    scale: .9;
+    transition: all.5s ease-in-out;
+  }
+  
+  
+  
+  .ndia{
+  width: 20rem;
+  max-width: 100%;
+  border: 1px darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10%;
+  transition: transform .5s ease;
+  /* border: 1px darkgray solid;
+  background-color: var(--secondary_color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10%; */
+  
+  
+  }
+  
+  .ndia p:hover{
+  scale: 1.1;
+  transition: all .5s ease-in-out;
+  
+    }
+  
+    .ndia h1:hover{
+      scale: .9;
+      transition: all .5s ease-in-out;
+      
+        }
+  
+  .ndia img{
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  
+  .bottom{
+  
+  display: flex;
+  justify-content: space-between;
+  gap: 20rem;
+  }
+  
+  .aquote{
+  
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: solid;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    width: 70%;
+   padding-right: 8rem;
+   margin-right: 7rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   line-height: 4rem;
+  }
+  
+  
+  .ndiaa{
+    min-width: 31rem;
+    max-width:31rem;
+    border: 2px solid green;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10%;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    }
+    
+    .ndiaa img{
+      height: 5rem;
+      width: 5rem;
+      border-radius: 100%;
+    }
+  
+    .ndiaa p:hover{
+     scale: 1.07;
+     transition: all .5s ease-in;
+     
+      }

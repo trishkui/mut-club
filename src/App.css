@@ -21,8 +21,8 @@ body {
   font-family:"Roboto", sans-serif; 
   background-color: var(--color-secondary);
   color: black;
-  padding: 0 2rem;
-  margin-bottom: 3rem;
+  padding: 0 2rem; 
+   margin-bottom: 3rem;
 
 
 }

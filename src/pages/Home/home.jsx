@@ -2,13 +2,14 @@ import React from "react";
 import Hero from "../../components/hero/hero";
 import About from "../../components/About/AboutUs";
 import Testimonies from "../../components/testimonies/testimonies";
+import Header from "../../components/Header/header";
 
 function  Home() {
     return(
-<div>
+<div className="helloo">
 
 <Hero />
-{/* <AboutUs /> */}
+<About />
 <Testimonies />
 
 

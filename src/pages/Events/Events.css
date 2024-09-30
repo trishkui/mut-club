@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timetable{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    color: green;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: 100%; */
+}
+
+.cyber{
+    display: flex;
+    gap: 30rem;
+    align-items: center;
+    width: 100%;
+    margin-left: 10rem;
+    padding: 2rem;
+}
+
+.head{
+background-color: var(--light_color);
+color: var(--primary_color);
+width: 100%;
+height: 20vh;
+}
+
+.foot{
+    background-color: var(--secondary_color);
+    color: var(--color_white);
+    width: 100%;
+    height: 20vh;
+}
+
+.courses{
+    width: 50%;
+    padding: 0;
+}
+
+.schedule{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary_color);
+    color:var(--color_white);
+    
+}

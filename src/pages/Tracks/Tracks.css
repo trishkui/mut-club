@@ -1,0 +1,166 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .introduct {
+    background-color: gray; 
+    color: green;
+    padding: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .introduct h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .introduct p {
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.6rem;
+  }
+  
+  
+  .partone, .part2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: var(--primary_color); /* Dark Green */
+    color: var(--color_white);
+  }
+  
+  .them_tracks {
+    background-color: gray;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    transition: all 0.5s ease;
+    color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .them_tracks h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .them_tracks p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  /* .theform{
+   color: black;
+
+  } */
+
+  .them_tracks:hover {
+    background-color :green;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .apply {
+    background-color: green;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .apply h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+ 
+  .form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding: 2rem;
+  }
+  
+  .contacts {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contacts label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: green;
+  }
+  
+  .contacts input, .contacts select {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .contacts button {
+    background-color: green;
+    color: var(--color_white);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contacts button:hover {
+    background-color: gray;
+    color: green;
+  }
+  
+
+  .quote {
+    background-color: green;
+    color: var(--color_white);
+    padding: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .quote h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 2.5rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .them_tracks {
+      width: 100%;
+    }
+  
+    .contacts {
+      flex-basis: 100%;
+    }
+  
+    .form {
+      flex-direction: column;
+    }
+  }
+  
+
+  /* .contacts{
+   background-color: white;
+   color: black;
+
+  } */
